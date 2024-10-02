@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B9944D12CADBA8800F17312 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9944D02CADBA8800F17312 /* main.cpp */; };
+		2B9944D92CADBAE500F17312 /* GradeAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B9944D72CADBAE500F17312 /* GradeAnalysis.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2B9944CD2CADBA8800F17312 /* Grade Analyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Grade Analyzer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9944D02CADBA8800F17312 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B9944D72CADBAE500F17312 /* GradeAnalysis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GradeAnalysis.cpp; sourceTree = "<group>"; };
+		2B9944D82CADBAE500F17312 /* GradeAnalysis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GradeAnalysis.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		2B9944CF2CADBA8800F17312 /* Grade Analyzer */ = {
 			isa = PBXGroup;
 			children = (
+				2B9944D72CADBAE500F17312 /* GradeAnalysis.cpp */,
+				2B9944D82CADBAE500F17312 /* GradeAnalysis.hpp */,
 				2B9944D02CADBA8800F17312 /* main.cpp */,
 			);
 			path = "Grade Analyzer";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9944D12CADBA8800F17312 /* main.cpp in Sources */,
+				2B9944D92CADBAE500F17312 /* GradeAnalysis.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
